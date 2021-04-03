@@ -58,13 +58,13 @@ do {
                 $newPrecio = trim(fgets(STDIN));
                 $f = new Funciones($newNombre,$newPrecio);
                 $f->cambiarNombrePrecioFuncion($newNombre,$newPrecio);
-                $arrayFunciones=[
+                $funciones=[
                     $f,
                     $funcion2,
                     $funcion3,
                     $funcion4
                 ];
-                $t = new Teatro($newTeatro,$newDireccion,$arrayFunciones);
+                $t = new Teatro($newTeatro,$newDireccion,$funciones);
                 
                 echo "\n\n".$t;
 
@@ -75,13 +75,13 @@ do {
                 $newPrecio = trim(fgets(STDIN));
                 $f = new Funciones($newNombre,$newPrecio);
                 $f->cambiarNombrePrecioFuncion($newNombre,$newPrecio);
-                $arrayFunciones=[
+                $funciones=[
                     $funcion1,
                     $f,
                     $funcion3,
                     $funcion4
                 ];
-                $t = new Teatro($newTeatro,$newDireccion,$arrayFunciones);
+                $t = new Teatro($newTeatro,$newDireccion,$funciones);
                 
                 echo "\n\n".$t;
 
@@ -92,13 +92,13 @@ do {
                 $newPrecio = trim(fgets(STDIN));
                 $f = new Funciones($newNombre,$newPrecio);
                 $f->cambiarNombrePrecioFuncion($newNombre,$newPrecio);
-                $arrayFunciones=[
+                $funciones=[
                     $funcion1,
                     $funcion2,
                     $f,
                     $funcion4
                 ];
-                $t = new Teatro($newTeatro,$newDireccion,$arrayFunciones);
+                $t = new Teatro($newTeatro,$newDireccion,$funciones);
                 
                 echo "\n\n".$t;
 
@@ -109,13 +109,13 @@ do {
                 $newPrecio = trim(fgets(STDIN));
                 $f = new Funciones($newNombre,$newPrecio);
                 $f->cambiarNombrePrecioFuncion($newNombre,$newPrecio);
-                $arrayFunciones=[
+                $funciones=[
                     $funcion1,
                     $funcion2,
                     $funcion3,
                     $f
                 ];
-                $t = new Teatro($newTeatro,$newDireccion,$arrayFunciones);
+                $t = new Teatro($newTeatro,$newDireccion,$funciones);
                 
                 echo "\n\n".$t;
 
